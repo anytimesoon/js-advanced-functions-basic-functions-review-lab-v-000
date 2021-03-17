@@ -31,3 +31,7 @@ const Calculator = {
     return 10 / 5;
   }
 }
+
+function actionApplyer(start){
+  return start;
+}
