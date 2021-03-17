@@ -13,4 +13,13 @@ function wrapAdjective(flair='*'){
   };
 }
 
-Calculator = function add
+const Calculator {
+
+  get add(){
+    return 1 + 3;
+  };
+  
+  get subtract(){
+    return 1 - 3;
+  };
+}
