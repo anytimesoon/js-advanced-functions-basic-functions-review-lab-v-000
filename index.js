@@ -33,7 +33,7 @@ const Calculator = {
 }
 
 function actionApplyer(start, functionsArr){
-  for let (i = 0; i < functionsArr.length; i++){
+  for (let i = 0; i < functionsArr.length; i++){
     start = functionsArr[i](start)
   }
   return start;
