@@ -21,11 +21,11 @@ const Calculator = {
   
   subtract: function(){
     return 1 - 3;
-  }
+  },
   
   multiply: function(){
     return 1 * 3;
-  }
+  },
   
   divide: function(){
     return 10 / 5;
