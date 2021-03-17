@@ -13,21 +13,21 @@ function wrapAdjective(flair='*'){
   };
 }
 
-class Calculator {
+const Calculator = {
 
-  get add(){
+  function add(){
     return 1 + 3;
   }
   
-  get subtract(){
+  function subtract(){
     return 1 - 3;
   }
   
-  get multiply(){
+  function multiply(){
     return 1 * 3;
   }
   
-  get divide(){
+  function divide(){
     return 10 / 5;
   }
 }
