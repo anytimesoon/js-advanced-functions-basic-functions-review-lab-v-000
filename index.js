@@ -12,3 +12,5 @@ function wrapAdjective(flair='*'){
     return `You are ${flair}${adj}${flair}!`;
   };
 }
+
+Calculator = function add
