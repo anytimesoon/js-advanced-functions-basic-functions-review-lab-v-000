@@ -32,6 +32,9 @@ const Calculator = {
   }
 }
 
-function actionApplyer(start){
+function actionApplyer(start, functionsArr=[]){
+  for let (i = 0; i < functionsArr.length; i++){
+    functionsArr[i](start)
+  }
   return start;
 }
