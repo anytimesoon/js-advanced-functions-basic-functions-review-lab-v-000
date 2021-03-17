@@ -1,5 +1,5 @@
 // Your code here
-function saturdayFun(str){
+function saturdayFun(str = "roller-skate"){
   return `This Saturday, I want to ${str}`;
 }
 
